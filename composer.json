@@ -1,0 +1,25 @@
+{
+    "name": "20steps/wemonit-bundle",
+    "type": "symfony-bundle",
+    "description": "Service-oriented WeMonIt API for Symfony2 applications",
+    "keywords": ["wemonit","api","soa","sf2","accounting"],
+    "homepage": "https://github.com/20steps/wemonit-bundle",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Helmut Hoffer von Ankershoffen",
+            "email": "helmuthva@20steps.de",
+            "homepage": "http://20steps.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"symfony/framework-bundle": "~2.3",
+        "misd/guzzle-bundle": "~1.0",
+        "liip/cache-control-bundle": "1.0.x"
+    },
+    "autoload": {
+        "psr-0": { "twentysteps\\Bundle\\WeMonItBundle": "" }
+    },
+    "target-dir": "twentysteps/Bundle/WeMonItBundle"
+}
