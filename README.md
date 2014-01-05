@@ -38,11 +38,11 @@ Register services provided by the bundle by adding the following line to the imp
 ```
 
 Define the following properties in your parameters.yml:  
-* twentysteps_wemonit.url - URL of the WeMonIt API - normally should point to "https://www.wemonit.de".
+* twentysteps_wemonit.url - URL of the WeMonIt API - normally should point to "https://wemonit.de/api/".
 * twentysteps_wemonit.apikey - API key of your account at WeMonIt.
-* twentysteps_wemonit.timeout - Timeout in seconds to apply on calls of the WeMonIt API.
-* twentysteps_wemonit.connect_timeout - Connect timeout in seconds to apply on calls to the WeMonIt API.
-* twentysteps_wemonit.cache_ttl - Cache TTL to apply on responses of the WeMonIt API
+* twentysteps_wemonit.timeout - Timeout in seconds to apply on calls of the WeMonIt API - you should use 10.
+* twentysteps_wemonit.connect_timeout - Connect timeout in seconds to apply on calls to the WeMonIt API - you should use 5.
+* twentysteps_wemonit.cache_ttl - Cache TTL to apply on responses of the WeMonIt API - you should use 3600.
 
 ## Usage
 
