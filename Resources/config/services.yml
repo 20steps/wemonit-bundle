@@ -4,7 +4,7 @@ services:
 
     twentysteps_wemonit.service:
         class: twentysteps\Bundle\WeMonItBundle\Services\WeMonItService
-        arguments: [@logger,@liip_doctrine_cache.ns.control, @twentysteps_wemonit.client, %twentysteps_wemonit.apikey%, %twentysteps_wemonit.timeout%, %twentysteps_wemonit.connect_timeout%, %twentysteps_wemonit.cache_ttl%]
+        arguments: [@logger,@liip_doctrine_cache.ns.control, @twentysteps_wemonit.client, %twentysteps_wemonit.api_key%, %twentysteps_wemonit.timeout%, %twentysteps_wemonit.connect_timeout%, %twentysteps_wemonit.cache_ttl%]
 
     twentysteps_wemonit.client: 
         class: %guzzle.client.class%
