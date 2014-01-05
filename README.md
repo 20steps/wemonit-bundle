@@ -9,8 +9,8 @@ For further information about WeMonIt goto http://www.wemonit.de.
 ## Features
 
 - [x] WeMonIt accessible as a configurable Symfony2 service.
-- [ ] Complete CRUD API for WeMonIt.
-- [ ] Configurable caching of responses to prevent surpassing rate limit.
+- [ ] Complete API for WeMonIt.
+- [x] Configurable caching of responses to prevent surpassing rate limit.
 - [ ] Provide some derived KPIs.
 - [ ] Full documentation and some examples.
 - [ ] Prepare for open sourcing of 20steps control.
